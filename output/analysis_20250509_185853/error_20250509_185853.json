@@ -1,0 +1,33 @@
+{
+  "analysis_id": "error_20250509_185853",
+  "query": "Please analyze the effect of the recent 2025 tariff policy from US, especially for Taiwan market",
+  "optimized_query": "",
+  "response": "",
+  "stats": {},
+  "visualization": {
+    "mermaid_file": "output/analysis_20250509_185853/error_20250509_185853.mmd",
+    "mermaid_code": "flowchart TB\n\n",
+    "metadata": {
+      "analysis_id": "error_20250509_185853",
+      "timestamp": "20250509_185853",
+      "total_nodes": 0,
+      "total_edges": 0,
+      "node_types": {},
+      "max_depth": 0,
+      "mermaid_file": "output/analysis_20250509_185853/error_20250509_185853.mmd"
+    }
+  },
+  "output_directory": "output/analysis_20250509_185853",
+  "timestamp": "2025-05-09T18:58:53.450638",
+  "generated_at": {
+    "start_time": "2025-05-09T18:58:53.450638",
+    "end_time": "2025-05-09T18:58:53.450646"
+  },
+  "execution_info": {
+    "platform": "openai",
+    "model": "gpt-4o",
+    "temperature": 0.3,
+    "max_layer": 3,
+    "max_nodes": 15
+  }
+}

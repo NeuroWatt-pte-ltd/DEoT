@@ -1,0 +1,28 @@
+# Core Dependencies
+openai==1.58.1
+python-dotenv==1.0.1
+langchain==0.3.13
+langchain-openai==0.2.14
+tiktoken==0.8.0
+
+# Data Processing
+pydantic==2.10.4
+typing_extensions==4.12.2
+annotated-types==0.7.0
+orjson==3.10.12
+
+# Utilities
+tqdm==4.67.1
+python-dateutil==2.9.0.post0
+PyYAML==6.0.2
+requests==2.32.3
+aiofiles==24.1.0
+
+# Text Processing
+nltk==3.9.1
+
+# Visualization
+mermaid-cli>=0.1.0
+
+# Optional Dependencies
+llama_index==0.12.33  # Optional: for advanced indexing capabilities

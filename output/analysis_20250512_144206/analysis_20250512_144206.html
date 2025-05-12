@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEoT Analysis Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true, theme: 'default' });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .mermaid {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-top: 20px;
+            overflow-x: auto;
+        }
+        h1 {
+            color: #333;
+        }
+        .info {
+            margin-bottom: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>DEoT Analysis Visualization</h1>
+    <div class="info">
+        <p>File: analysis_20250512_144206.mmd</p>
+        <p>Generated on: 2025-05-12 14:44:20</p>
+    </div>
+    <div class="mermaid">
+flowchart TB
+
+    subgraph Layer_1[Layer 1]
+        analysis_20250512_144206_root(Could you provide a detailed analysis of the impact of the 2025 tariff policy recently implemented by the United States, specifically focusing on its implications for the Taiwan market?)
+    end
+    subgraph Layer_2[Layer 2]
+        analysis_20250512_144206_root_depth_1(What specific industries in Taiwan are most vulnerable to the 2025 tariff policy from the US, and how might this impact the overall economic landscape of Taiwan?)
+    end
+    subgraph Layer_3[Layer 3]
+        analysis_20250512_144206_root_depth_1_depth_1{What historical precedents or case studies can be examined to better understand the potential impact of tariff policies on specific industries in Taiwan?}
+    end
+
+    analysis_20250512_144206_root -->|DEPTH| analysis_20250512_144206_root_depth_1
+    analysis_20250512_144206_root_depth_1 --> analysis_20250512_144206_root_depth_1_depth_1
+
+
+style analysis_20250512_144206_root fill:#f0f7ff,stroke:#003366
+style analysis_20250512_144206_root_depth_1 fill:#f0f7ff,stroke:#003366
+style analysis_20250512_144206_root_depth_1_depth_1 fill:#f6ffed,stroke:#52c41a
+    </div>
+</body>
+</html>
+            

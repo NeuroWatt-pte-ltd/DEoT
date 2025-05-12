@@ -1,0 +1,11 @@
+{
+  "analysis_id": "analysis_20250512_115953",
+  "timestamp": "20250512_120058",
+  "total_nodes": 1,
+  "total_edges": 0,
+  "node_types": {
+    "DEPTH": 1
+  },
+  "max_depth": 1,
+  "mermaid_file": "output/analysis_20250512_115953/analysis_20250512_115953.mmd"
+}

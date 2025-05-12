@@ -1,0 +1,29 @@
+flowchart TB
+
+    subgraph Layer_1[Layer 1]
+        analysis_20250512_151901_root(Could you provide a detailed analysis of the impact of the 2025 tariff policy recently implemented by the United States, specifically focusing on its implications for the Taiwan market?)
+    end
+    subgraph Layer_2[Layer 2]
+        analysis_20250512_151901_root_depth_1(What specific industries in Taiwan are most vulnerable to the recent 2025 tariff policy from the US, and what factors contribute to their susceptibility?)
+    end
+    subgraph Layer_3[Layer 3]
+        analysis_20250512_151901_root_depth_1_depth_1(What strategies can industries in Taiwan adopt to mitigate the impact of the 2025 tariff policy from the US, considering their vulnerability and supply chain dependencies?)
+    end
+    subgraph Layer_4[Layer 4]
+        analysis_20250512_151901_root_depth_1_depth_1_depth_1[What specific technologies and automation solutions can industries in Taiwan implement to enhance efficiency and mitigate the impact of the 2025 tariff policy from the US?]
+    end
+    subgraph Layer_5[Layer 5]
+        analysis_20250512_151901_root_depth_1_depth_1_depth_1_breadth_2{What specific strategies have Taiwanese industries adopted to enhance their resilience in the face of the 2025 tariff policy from the US?}
+    end
+
+    analysis_20250512_151901_root -->|DEPTH| analysis_20250512_151901_root_depth_1
+    analysis_20250512_151901_root_depth_1 -->|DEPTH| analysis_20250512_151901_root_depth_1_depth_1
+    analysis_20250512_151901_root_depth_1_depth_1 -->|BREADTH| analysis_20250512_151901_root_depth_1_depth_1_depth_1
+    analysis_20250512_151901_root_depth_1_depth_1_depth_1 --> analysis_20250512_151901_root_depth_1_depth_1_depth_1_breadth_2
+
+
+style analysis_20250512_151901_root fill:#f0f7ff,stroke:#003366
+style analysis_20250512_151901_root_depth_1 fill:#f0f7ff,stroke:#003366
+style analysis_20250512_151901_root_depth_1_depth_1 fill:#f0f7ff,stroke:#003366
+style analysis_20250512_151901_root_depth_1_depth_1_depth_1 fill:#e6f7ff,stroke:#0066cc
+style analysis_20250512_151901_root_depth_1_depth_1_depth_1_breadth_2 fill:#f6ffed,stroke:#52c41a

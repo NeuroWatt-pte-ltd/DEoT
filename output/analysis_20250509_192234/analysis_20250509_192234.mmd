@@ -1,0 +1,19 @@
+flowchart TB
+
+    subgraph Layer_1[Layer 1]
+        analysis_20250509_192234_root(Could you provide a detailed analysis of the impact of the 2025 tariff policy recently implemented by the United States, specifically focusing on its implications for the Taiwan market?)
+    end
+    subgraph Layer_2[Layer 2]
+        analysis_20250509_192234_root_depth_1(How might the 2025 tariff policy from the US impact the supply chain resilience and diversification strategies of Taiwanese businesses in response to potential trade disruptions?)
+    end
+    subgraph Layer_3[Layer 3]
+        analysis_20250509_192234_root_depth_1_depth_1{What specific measures can Taiwanese businesses implement to enhance their supply chain resilience and diversification strategies in response to the 2025 tariff policy from the US?}
+    end
+
+    analysis_20250509_192234_root -->|DEPTH| analysis_20250509_192234_root_depth_1
+    analysis_20250509_192234_root_depth_1 --> analysis_20250509_192234_root_depth_1_depth_1
+
+
+style analysis_20250509_192234_root fill:#f0f7ff,stroke:#003366
+style analysis_20250509_192234_root_depth_1 fill:#f0f7ff,stroke:#003366
+style analysis_20250509_192234_root_depth_1_depth_1 fill:#f6ffed,stroke:#52c41a
